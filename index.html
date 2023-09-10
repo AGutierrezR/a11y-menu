@@ -127,8 +127,19 @@ wp_nav_menu($args);</code></pre>
                                 <a href="/submenu-item-1/grandchild-1">Grandchild 1</a>
                             </li>
                             <li class="no-js">
-                                <a href="/submenu-item-1/grandchild-2">Grandchild 2</a>
-                            </li>
+                            <li class="no-js" data-count="0" data-has-children="true">
+                                <a class="am-submenu-link" aria-label="Submenu Item 1, tab to the next button to expand the sub-menu" href="/submenu-item-1">Submenu Item 1</a>
+                                <button class="submenu-button submenu-toggle" aria-haspopup="true" aria-expanded="false" aria-label="show submenu">
+                                    <span class="am-submenu-icon" aria-hidden="true" data-before="∨"></span>
+                                </button>
+                                <ul id="sub-submenu-1">
+                                    <li class="no-js">
+                                        <a href="/submenu-item-1/grandchild-1">Grandchild 1</a>
+                                    </li>
+                                    <li class="no-js">
+                                        <a href="/submenu-item-1/grandchild-2">Grandchild 2</a>
+                                    </li>
+                                </ul>
                         </ul>
                     </li>
                     <li class="no-js">
