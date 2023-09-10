@@ -27,7 +27,20 @@
               "name": "Grandchild 1",
               "slug": "grandchild-1",
               "link": "/submenu-item-1/grandchild-1",
-              "sub": null
+              "sub": [
+                {
+                  "name": "Grandchild 1",
+                  "slug": "grandchild-1",
+                  "link": "/submenu-item-1/grandchild-1",
+                  "sub": null
+                },
+                {
+                  "name": "Grandchild 2",
+                  "slug": "grandchild-2",
+                  "link": "/submenu-item-1/grandchild-2",
+                  "sub": null
+                }
+              ]
             },
             {
               "name": "Grandchild 2",
