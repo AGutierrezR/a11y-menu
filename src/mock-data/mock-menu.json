@@ -26,7 +26,20 @@
               "name": "Thing two",
               "slug": "thing-two",
               "link": "/what-we-do/thing-two",
-              "sub": null
+              "sub": [
+                {
+                  "name": "Thing one",
+                  "slug": "thing-one",
+                  "link": "/what-we-do/thing-one",
+                  "sub": null
+                },
+                {
+                  "name": "Thing two",
+                  "slug": "thing-two",
+                  "link": "/what-we-do/thing-two",
+                  "sub": null
+                }
+              ]
             }
           ]
         },
